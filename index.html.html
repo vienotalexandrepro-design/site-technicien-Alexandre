@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <title>Vienot Alexandre - Technicien en assistance informatique, Mobile et Tablette</title>
+        <meta name="description" content="Assistance informatique sur site et à distance - Dépannage, Installation, conseils, Maintenance. Vienot Alexandre, Technicien pro.">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/9b4f3c6c1a.js" crossorigin="anonymous"></script>
+        <style>
+            body { font-family: 'Inter' , sans-serif; margin: 0; background-color: #0f1724; color: #e6eef8; }
+            header { background: #0b1220; padding: 20px; display: flex; justify-content: space-between; align-items: center; }
+            header h1 { margin: 0; font-size: 20px; }
+            nav a { color: #94a3b8; text-decoration: none; margin: 0 10px; }
+            nav a:hover { color: #2dd4bf; }
+            section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+            h2 { color: #2dd4bf; }
+            .services { display: grid; grid-template-columns: repeat(auto-fit,minmax(250px,1fr)); gap: 20px; }
+            .service { background: #0b1220; padding: 20px; border-radius: 10px; }
+            footer { text-align: center; padding: 20px; border-top: 1px solid #2dd4bf; color: #94a3b8; }
+            .btn { display: inline-block; padding: 10px 16px; background: #2dd4bf; color: #042033; text-decoration: none; border-radius: 8px; font-weight: 700; }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Vienot Alexandre - Technicien en Assistance Informatique</h1>
+            <nav>
+                <a href="#accueil">Accueil</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </header>
+
+        <section id="accueil">
+            <h2>Services proposés</h2>
+            <div class="services">
+            <div class="services"><i class="fa-solid fa-screwdriver-wrench"></i><h3>Dépannage PC, Mobile et Tablette</h3><p>Réparation (Ecran, Dalle tactile), Diagnostic matériel, Suppression de virus.</p></div>
+            <div class="service"><i class="fa-solid fa-network-wired"></i><h3>Réseau & Internet</h3><p>Configuration Wi-Fi, box, routeur, imprimantes partagées.</p></div>
+            <div class="service"><i class="fa-solid fa-cloud-arrow-up"></i><h3>Sauvegarde & sécurité</h3><p>Installation de solutions de sauvegarde et d’antivirus.</p></div>
+            <div class="service"><i class="fa-solid fa-headset"></i><h3>Assistance à distance</h3><p>Support rapide et sécurisé via outils de télémaintenance.</p></div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Besoin d'aide ? Contactez-moi :</p>
+            <ul>
+                <li>Email : <a href="mailto:vienot.alexandre.pro@gmail.com" style="color:#60a5fa;">vienot.alexandre.pro@gmail.com</a></li>
+                <li>Téléphone : 07-80-42-13-49</li>
+                <li>Basé à Dunkerque</li>
+                </ul>
+        </section>
+
+        <footer>
+            © <span id="year"></span> Vienot Alexandre - Tous droit réservés
+        </footer>
+
+        <script>
+            document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
+        
